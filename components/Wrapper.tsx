@@ -36,7 +36,7 @@ export default function Wrapper({
   return (
     <div id="quote-box" className="box content p-6">
       <Quote quote={quote} author={author} />
-      <QuoteControls getNewQuote={getNewQuote} />
+      <QuoteControls getNewQuote={getNewQuote} quote={quote} author={author} />
     </div>
   );
 }
