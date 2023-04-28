@@ -8,7 +8,7 @@ export default function App() {
   const [author, setAuthor] = useState('');
 
   return (
-    <div>
+    <div >
       <Wrapper
         isLoading={isLoading}
         onLoad={setIsLoading}

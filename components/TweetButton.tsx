@@ -21,7 +21,7 @@ export default function TweetButton({ quote, author }: Props) {
       <span className="icon">
         <FaTwitter />
       </span>
-      <span>Tweet</span>
+      <span className="ml-4">Tweet</span>
     </a>
   );
 }

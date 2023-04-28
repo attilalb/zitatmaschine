@@ -2,13 +2,8 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.box {
-  margin: 50px auto;
-  max-width: 600px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-  transition: box-shadow 0.3s ease-in-out;
+#app {
+  height: 100%;
 }
 
 .subtitle {
@@ -18,10 +13,4 @@ body {
 
 #new-quote {
   cursor: pointer;
-}
-
-@media screen and (max-width: 600px) {
-  #text.is-size-2 {
-    font-size: 2rem !important;
-  }
 }
