@@ -34,15 +34,9 @@ export default function Wrapper({
   };
 
   return (
-    <div className="mg-large">
-      <div id="quote-box" className="box container content p-4">
-        <Quote quote={quote} author={author} />
-        <QuoteControls
-          getNewQuote={getNewQuote}
-          quote={quote}
-          author={author}
-        />
-      </div>
+    <div id="quote-box" className="box container content p-4 mg-md">
+      <Quote quote={quote} author={author} />
+      <QuoteControls getNewQuote={getNewQuote} quote={quote} author={author} />
     </div>
   );
 }

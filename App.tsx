@@ -8,7 +8,8 @@ export default function App() {
   const [author, setAuthor] = useState('');
 
   return (
-    <div >
+    <div className="p-6 content">
+      <h1 className="has-text-centered">QuoteMachine</h1>
       <Wrapper
         isLoading={isLoading}
         onLoad={setIsLoading}
