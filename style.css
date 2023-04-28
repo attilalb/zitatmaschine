@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f3f5f9;
+  height: 100dvh;
 }
 
 #app {
