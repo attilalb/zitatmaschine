@@ -17,6 +17,13 @@ The app should now be running on [http://localhost:3000](http://localhost:3000).
 
 To generate a new quote, click the "New Quote" button. To share a quote on Twitter, click the "Tweet" button.
 
+## 🛠️ Technologies Used
+
+- React.js
+- TypeScript
+- Bulma CSS
+- react-icons
+
 ## Contributing 🤝
 
 Contributions are welcome! If you have any suggestions for new features or improvements, feel free to open an issue or a pull request.
