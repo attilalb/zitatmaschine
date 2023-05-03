@@ -8,7 +8,7 @@ interface Props {
 export default function Quote({ quote, author }: Props) {
   return (
     <div id="quote-text" className="p-3">
-      <div class="block">
+      <div className="block">
         <span className="icon">
           <FaQuoteLeft />
         </span>
