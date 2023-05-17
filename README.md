@@ -19,7 +19,7 @@ To generate a new quote, click the "New Quote" button. To share a quote on Twitt
 
 ## 🛠️ Technologies Used
 
-- React.js
+- React
 - TypeScript
 - Bulma CSS
 - react-icons
